@@ -86,7 +86,7 @@ GetMovies.prototype = {
       // 处理数据，放到页面上
       function render($ct, data) {
         var fragment = document.createDocumentFragment()
-        var template = '<li class="movie-list-item"><a>'
+        var template = '<li class="movie-list-item"><a target="blank">'
                   + '<div class="cover"><img></div>'
                   + '<div class="movie-message"><h2></h2>'
                   + '<p><span class="score"></span>分 / <span class="collect"></span>收藏</p>'
